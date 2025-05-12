@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f9;
+    }
+
+    /* Header Styles */
+    header {
+      text-align: center;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+    }
+
+    /* Section Styles */
+    section {
+      margin: 20px;
+    }
+
+    section h2 {
+      color: #333;
+    }
+
+    section p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    /* Image Styles */
+    img {
+      width: 300px;
+      border-radius: 50%;
+      display: block;
+      margin: 20px auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    form label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    form input, form textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    form button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to My Portfolio</h1>
+  <p>Explore my work, projects, and more!</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>Hello! I'm a passionate developer with experience in building web applications. I enjoy creating user-friendly websites and learning new technologies.</p>
+  <img src="https://c8.alamy.com/comp/2GJEGH1/girl-cv-icon-cartoon-vector-workcandidate-man-agreement-2GJEGH1.jpg" alt="Profile Picture">
+</section>
+
+<section>
+  <h2>My Projects</h2>
+  <table>
+    <tr>
+      <th>Project Title</th>
+      <th>Description</th>
+      <th>Year</th>
+    </tr>
+    <tr>
+      <td>Project One</td>
+      <td>A web application to manage tasks.</td>
+      <td>2024</td>
+    </tr>
+    <tr>
+      <td>Project Two</td>
+      <td>A personal blog built with a CMS.</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>Project Three</td>
+      <td>An e-commerce site with a shopping cart.</td>
+      <td>2022</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Media</h2>
+
+  <h3>Audio</h3>
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h3>Video</h3>
+  <video width="640" height="360" controls>
+    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+    Your browser does not support the video element.
+  </video>
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 My Portfolio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
